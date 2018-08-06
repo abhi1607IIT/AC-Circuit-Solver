@@ -1,0 +1,13 @@
+1.For a perfect svg image ground must be present in top.cir file as All voltages and currents are measured with respect to a certain reference. We have assumed the ground (Net of name '0') to be at zero potential, provided it is mentioned in the netlist. If it is not mentioned in the netlist then rendering will not be there,and there will be an error . 
+
+2.top.cir is case Insensetive .
+
+3.We have provided a help panel at image rendering . The panel zooms in , out and also does left and right shift on the rendered image .
+
+4.Due to no knowledge of JavaScript we have not suceeding in hovering of the rendered image but instead we have succeded in making a help Panel.
+
+5.Ground NET is also rendered.
+
+6.As suggested damping effect is not considered that is damping value is taken to be 0.
+
+7. We have used lex and yacc for file handling
